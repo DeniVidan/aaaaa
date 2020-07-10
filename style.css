@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 300px;
+}
+.line{
+    margin-top: 50px;
+}
+.logo{
+    width: 220px;
+    margin-left: 50px;
+}
+.tjelo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #e4f5fc;
+}
+.navbar-collapse{
+    justify-content: center !important;
+}
+.nav-link{
+    margin-left: 100px;
+}
+
+.navbar-light{
+    background-color: transparent !important;
+    transition: ease-in-out 200ms;
+}
+.navbar-light.scrolled{
+    background-color: #71b5c2 !important;
+}
+
+.bg-slika{
+    position: absolute;
+    width: 102%;
+    margin-top: 0px;
+}
+
+.karta{
+    border-radius: 10px;
+    margin-right: 7px;
+    margin-left: 7px;;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap !important;
+}
+.quoteText{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 576px){
+    .logo{
+        width: 200px;
+        margin-left: 10px;
+    }
+  }
+  @media screen and (max-width: 755px){
+    .flex-container{
+        justify-content: center !important;
+    }
+    img.shadow{
+        margin-top: 25px !important;
+        margin-left: 0px !important;
+    }
+  }
+
+@media screen and (max-width: 1081px){
+    .nav-link{
+        margin-left: 20px;
+    }
+    .flex-container{
+        padding-top: 220px;
+
+    }
+    img.shadow{
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1340px){
+    .bg-slika{
+        width: 150%;
+    }
+  }
+  @media screen and (max-width: 1201px){
+    .navbar-light{
+        background-color: #71b5c2 !important;
+    }
+    .flex-container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+  }
+  @media screen and (max-width: 865px){
+    .bg-slika{
+        width: 650px;
+    }
+    .flex-container{
+        padding-top: 320px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+  }
+  @media screen and (max-width: 550px){
+    .bg-slika{
+        width: 250%;
+        margin-top: 25px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+    .col-md-4{
+        margin-top: 15px;
+    }
+  }
+  @media screen and (max-width: 620px){
+  
+    .flex-container{
+        padding-top: 200px;
+    }
+  }
+
+
+.shadow{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 100ms;
+}
+.shadow:hover{
+    transform: scale(1.01);
+}
